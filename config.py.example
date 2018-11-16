@@ -1,0 +1,25 @@
+## Add your config
+
+# Speech to text 
+PHRASE_TRESHOLD = 1 # minimum seconds of speaking audio before we consider the speaking audio a phrase - values below this are ignored (for filtering out clicks and pops)
+ENERGY_THRESHOLD = 2000  # Minimum energy for speech. Noises and words below this level will not be recognised
+PAUSE_THRESHOLD = 1.5  # Maximum pause time. After this time the sentence will be parsed by the stt service.
+SPEECH_LANG = "fr"  # Speech recognition language
+
+# Watson tone analyzer
+EMOTION_VERSION = '2017-09-21'
+EMOTION_API_URL = 
+
+# Credentials (delete the unuseful one)
+# For the Identity and Access Management (IAM) authentication
+# EMOTION_API_KEY = 
+
+# For the basic authentication
+EMOTION_API_USERNAME = 
+EMOTION_API_PASSWORD = 
+
+# Color Mapping
+ANGER_COLOR = 'dark_red_2'
+JOY_COLOR = 'light_yellow'
+FEAR_COLOR = 'black'
+SADNESS_COLOR = 'purple_4a'
